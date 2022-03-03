@@ -1,0 +1,40 @@
+  88  clear
+   89  mkdir quests
+   90  mkdir -p quests/shell/vegetables quests/shell/fruits
+   91  ls
+   92  mkdir quests/shell/remove-me quests/shell/delete-me
+   93  ls quests/shell/
+   94  rmdir quests/shell/remove-me/ quests/shell/delete-me/
+   95  ls quests/shell/
+   96  cd ~/quests/shell/
+   97  touch apple
+   98  touch apricot
+   99  touch carrot parsnip cauliflower courgette
+  100  ls
+  101  ls -l ~/.bashrc 
+  102  touch ~/.bashrc 
+  103  ls -l ~/.bashrc 
+  104  cp apple banana
+  105  cp apple fruits/orange
+  106  ls ; ls fruits/
+  107  cp ap* banana fruits/
+  108  ls fruits/
+  109  cp -R fruits/ copy-of-fruits
+  110  cp -R fruits/ copy-of-fruits/ /tmp/
+  111  rm ap* banana 
+  112  rm -r copy-of-fruits/
+  113  mv ca* parsnip courgette vegetables/
+  114  mv fruits/orange fruits/grapefruit
+  115  mv vegetables/courgette fruits/kiwi
+  116  curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
+  117  unzip planets.zip 
+  118  ls
+  119  cd planets/
+  120  ls
+  121  mkdir real fictionnal inhabited
+  122  mkdir real/terrestrial real/gas-giants real/dwarf-planets
+  123  mv earth.jpeg jupiter.jpeg mars.jpeg mercury.jpeg neptune.jpeg pluto.jpeg saturn.jpeg uranus.jpeg venus.jpeg real/
+  124  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictionnal/
+  125  cp real/earth.jpeg real/venus.jpeg real/jupiter.jpeg real/mars.jpeg inhabited/
+  126  find
+  127  history
