@@ -1,0 +1,116 @@
+─[neo@matrix]─[~]
+└──╼ $mkdir quests
+┌─[neo@matrix]─[~]
+└──╼ $mkdir -p quests/shell/vegetables quests/shell/fruits
+┌─[neo@matrix]─[~]
+└──╼ $ls
+Desktop    Downloads  Pictures  quests  Templates
+Documents  Music      Public    snap    Videos
+┌─[neo@matrix]─[~]
+└──╼ $mkdir quests/shell/remove-me quests/shell/delete-me
+┌─[neo@matrix]─[~]
+└──╼ $ls quests/shell/
+delete-me  fruits  remove-me  vegetables
+┌─[neo@matrix]─[~]
+└──╼ $rmdir quests/shell/remove-me/ quests/shell/delete-me/
+┌─[neo@matrix]─[~]
+└──╼ $ls quests/shell/
+fruits  vegetables
+┌─[neo@matrix]─[~]
+└──╼ $cd ~/quests/shell/
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $touch apple
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $touch apricot
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $touch carrot parsnip cauliflower courgette
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $ls
+apple  apricot  carrot  cauliflower  courgette  fruits  parsnip  vegetables
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $ls -l ~/.bashrc 
+-rw-r--r-- 1 neo neo 4712 mars   1 19:30 /home/neo/.bashrc
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $touch ~/.bashrc 
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $ls -l ~/.bashrc 
+-rw-r--r-- 1 neo neo 4712 mars   3 09:37 /home/neo/.bashrc
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $cp apple banana
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $cp apple fruits/orange
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $ls ; ls fruits/
+apple    banana  cauliflower  fruits   vegetables
+apricot  carrot  courgette    parsnip
+orange
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $cp ap* banana fruits/
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $ls fruits/
+apple  apricot  banana  orange
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $cp -R fruits/ copy-of-fruits
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $cp -R fruits/ copy-of-fruits/ /tmp/
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $rm ap* banana 
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $rm -r co
+copy-of-fruits/ courgette       
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $rm -r copy-of-fruits/
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $mv ca* parsnip courgette vegetables/
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $mv fruits/orange fruits/grapefruit
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $mv vegetables/courgette fruits/kiwi
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   148  100   148    0     0    902      0 --:--:-- --:--:-- --:--:--   902
+100   159  100   159    0     0    823      0 --:--:-- --:--:-- --:--:--   823
+100  293k  100  293k    0     0   346k      0 --:--:-- --:--:-- --:--:--  346k
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $unzip planets.zip 
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg    
+  inflating: planets/earth.jpeg      
+  inflating: planets/pluto.jpeg      
+  inflating: planets/arrakis.jpeg    
+  inflating: planets/jupiter.jpeg    
+  inflating: planets/venus.jpeg      
+  inflating: planets/mars.jpeg       
+  inflating: planets/cybertron.jpeg  
+  inflating: planets/coruscant.jpeg  
+  inflating: planets/uranus.jpeg     
+  inflating: planets/neptune.jpeg    
+  inflating: planets/saturn.jpeg     
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $ls
+fruits  planets  planets.zip  vegetables
+┌─[neo@matrix]─[~/quests/shell]
+└──╼ $cd planets/
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $ls
+arrakis.jpeg    earth.jpeg    mercury.jpeg  saturn.jpeg
+coruscant.jpeg  jupiter.jpeg  neptune.jpeg  uranus.jpeg
+cybertron.jpeg  mars.jpeg     pluto.jpeg    venus.jpeg
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $mkdir real fictionnal inhabited
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $mkdir real/terrestrial real/gas-giants real/dwarf-planets
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $mv earth.jpeg jupiter.jpeg mars.jpeg mercury.jpeg neptune.jpeg pluto.jpeg saturn.jpeg uranus.jpeg venus.jpeg real/
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $mv arrakis.jpeg c
+coruscant.jpeg  cybertron.jpeg  
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictionnal/
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $cp real/earth.jpeg real/venus.jpeg real/jupiter.jpeg real/mars.jpeg inhabited/
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $
