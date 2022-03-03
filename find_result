@@ -1,0 +1,25 @@
+┌─[neo@matrix]─[~/quests/shell/planets]
+└──╼ $find
+.
+./inhabited
+./inhabited/venus.jpeg
+./inhabited/earth.jpeg
+./inhabited/mars.jpeg
+./inhabited/jupiter.jpeg
+./real
+./real/venus.jpeg
+./real/gas-giants
+./real/saturn.jpeg
+./real/neptune.jpeg
+./real/earth.jpeg
+./real/terrestrial
+./real/mars.jpeg
+./real/pluto.jpeg
+./real/uranus.jpeg
+./real/jupiter.jpeg
+./real/mercury.jpeg
+./real/dwarf-planets
+./fictionnal
+./fictionnal/cybertron.jpeg
+./fictionnal/arrakis.jpeg
+./fictionnal/coruscant.jpeg
