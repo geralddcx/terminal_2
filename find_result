@@ -17,7 +17,7 @@
 ./real/terrestrial/earth.jpeg
 ./real/terrestrial/mars.jpeg
 ./real/terrestrial/mercury.jpeg
-./cybertron.jpeg
-./arrakis.jpeg
-./coruscant.jpeg
 ./fictional
+./fictional/cybertron.jpeg
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
