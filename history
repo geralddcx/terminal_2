@@ -1,42 +1,4 @@
-  263  mkdir ~/quests/shell
-  264  mkdir -p ~/quests/shell
-  265  cd quests/shell/
-  266  curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
-  267  unzip planets.zip
-  268  mkdir terrestrial gas-giants dwarf-planets
-  269  ls
-  270  rmdir dwarf-planets/ gas-giants/ terrestrial/
-  271  ls
-  272  mkdir planets/real planets/fictionnal planets/inhabited
-  273  cd planets/
-  274  ls
-  275  mkdir real/terrestrial real/fictional real/inhabited
-  276  cd real/
-  277  ls
-  278  rm fictional/ inhabited/ terrestrial/
-  279  rmdir  fictional/ inhabited/ terrestrial/
-  280  ls
-  281  cd ..
-  282  ls
-  283  cd real/
-  284  ls
-  285  mkdir terrestrial gaas-giants dwarf-planets
-  286  mv gaas-giants/ gas-giants/
-  287  ls
-  288  cd ..
-  289  ls
-  290  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictionnal/
-  291  mv pluto.jpeg real/dwarf-planets/
-  292  mv venus.jpeg earth.jpeg mars.jpeg jupiter.jpeg inhabited/
-  293  ls
-  294  rm -R fictionnal/ inhabited/ mercury.jpeg neptune.jpeg real/ saturn.jpeg  uranus.jpeg 
-  295  ls
-  296  cd ..
-  297  ls
-  298  rm planets*
-  299  rm -r planets*
-  300  ls
-  301  clear
+ 301  clear
   302  curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
   303  unzip planets.zip 
   304  cd planets/
@@ -50,4 +12,9 @@
   312  rm -R real/dwarf-planets/
   313  find
   314  history
-
+  315  find
+  316  ls
+  317  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional/
+  318  ls
+  319  find
+  320  history
